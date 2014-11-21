@@ -1,0 +1,2 @@
+#add these channels
+conda config --add channels https://conda.binstar.org/mutirri

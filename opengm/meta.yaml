@@ -1,0 +1,25 @@
+package:
+    name: opengm
+    version: "2.0.2"
+
+source:
+    git_url: https://github.com/opengm/opengm.git
+
+build:
+    number: 1
+
+requirements:
+    build:
+        - python
+        - cmake
+        - boost
+        - hdf5
+
+    run:
+        - python
+        - boost
+        - hdf5
+
+about:
+    home: https://github.com/opengm/opengm
+    summary: Python wrappers and command line tools for OpenGM. OpenGM is a library for working with discrete factor graph models.
